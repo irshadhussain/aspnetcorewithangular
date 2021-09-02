@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Product>
+@section Scripts {
+    <script src="~/client/polyfills.7d99fe739f19bbf4acee.js"></script>
+    <script src="~/client/runtime.4b1540bf51da5ef20c67.js"></script>
+    <script src="~/client/main.91a5970fce0216df4afe.js"></script>
+}
+@section head {
+    <base href="/app/shop" />
+    <link href="~/client/styles.31d6cfe0d16ae931b73c.css" rel="stylesheet" />
+}
+<the-shop></the-shop>
+@*<h1>Shop</h1>
+    <span>Count: @Model.Count()</span>
+
+    <div class="row">
+        @foreach (var p in Model)
+        {
+            <div class="col-md-3">
+                <div class="border bg-light rounded p-1">
+                    <img src="~/img/@(p.ArtId).jpg" alt="@p.Title" class="img-fluid" />
+                    <h3>@p.Category</h3>
+                    <ul>
+                        <li>Price: @p.Price</li>
+                        <li>Artist: @p.Artist</li>
+                        <li>Title: @p.Title</li>
+                        <li>Description: @p.ArtDescription</li>
+                    </ul>
+                    <button id="buyButton" class="btn btn-success">Buy</button>
+                </div>
+            </div>
+        }
+    </div>*@

@@ -1,0 +1,16 @@
+{
+  "ConnectionString": {
+    "DutchContext": "Data Source=(localdb)\\ProjectsV13;Initial Catalog=DutchTreatDB;Integrated Security=True;Connect Timeout=30;MultipleActiveResultSets=true;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning"
+    }
+  },
+  "Token": {
+    "Key": "sdadhjsdakjdhsakhkdsajhkdas",
+    "Issuer": "http//localhost:5000",
+    "Audience": "http//localhost:5000"
+  }
+}
